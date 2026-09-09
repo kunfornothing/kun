@@ -267,3 +267,110 @@ footer {
 
     color: #666;
 }
+
+/* ---------- Individual Writing ---------- */
+
+.writing-page {
+max-width: 680px;
+margin: 0 auto;
+}
+
+.writing-header {
+margin-bottom: 90px;
+}
+
+.writing-header .date {
+margin-bottom: 22px;
+}
+
+.writing-header h1 {
+font-size: clamp(42px, 6vw, 64px);
+line-height: 1.2;
+}
+
+.writing-subtitle {
+max-width: 520px;
+margin-top: 24px;
+
+```
+color: #777;
+font-size: 16px;
+```
+
+}
+
+.writing-body {
+font-family: "Libre Baskerville", serif;
+font-size: 17px;
+line-height: 2;
+
+```
+color: #303030;
+```
+
+}
+
+.writing-body p {
+margin: 0 0 30px;
+}
+
+.writing-body em {
+font-style: italic;
+}
+
+.writing-ending {
+margin-top: 55px !important;
+
+```
+font-family: "Inter", sans-serif;
+font-size: 14px;
+color: #777;
+```
+
+}
+
+.writing-navigation {
+max-width: 680px;
+margin: 110px auto 0;
+
+```
+padding-top: 25px;
+border-top: 1px solid #d9d7d0;
+```
+
+}
+
+.writing-navigation a {
+color: #777;
+text-decoration: none;
+font-size: 13px;
+}
+
+.writing-navigation a:hover {
+color: #242424;
+}
+
+/* ---------- Writing Mobile ---------- */
+
+@media (max-width: 600px) {
+
+```
+.writing-page {
+    max-width: 100%;
+}
+
+.writing-header {
+    margin-bottom: 65px;
+}
+
+.writing-body {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.writing-navigation {
+    margin-top: 80px;
+}
+```
+
+}
