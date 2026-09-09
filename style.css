@@ -210,3 +210,60 @@ footer {
         padding-right: 22px;
     }
 }
+/* ---------- Writing Archive ---------- */
+
+.page-intro {
+    max-width: 700px;
+    margin-bottom: 100px;
+}
+
+.page-intro h1 {
+    font-size: clamp(48px, 7vw, 76px);
+}
+
+
+.archive-year h2 {
+    margin: 0 0 30px;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    color: #777;
+}
+
+
+.archive-item {
+    padding: 32px 0;
+
+    border-top: 1px solid #d9d7d0;
+}
+
+.archive-item:last-child {
+    border-bottom: 1px solid #d9d7d0;
+}
+
+
+.archive-item h3 {
+    margin: 0;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.archive-item h3 a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.archive-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.archive-item p:last-child {
+    max-width: 600px;
+    margin-top: 10px;
+
+    color: #666;
+}
