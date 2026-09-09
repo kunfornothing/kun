@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500&display=swap');
+
+
+/* ---------- General ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #f8f7f3;
+    color: #242424;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+}
+
+
+/* ---------- Header ---------- */
+
+.site-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    color: #242424;
+    text-decoration: none;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #242424;
+}
+
+
+/* ---------- Main ---------- */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 40px 140px;
+}
+
+
+/* ---------- Introduction ---------- */
+
+.intro {
+    max-width: 720px;
+    margin-bottom: 150px;
+}
+
+.eyebrow {
+    margin-bottom: 28px;
+
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: clamp(38px, 6vw, 68px);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.intro-text {
+    max-width: 520px;
+    margin-top: 36px;
+
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* ---------- Latest ---------- */
+
+.section-heading {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d9d7d0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.section-heading a {
+    color: #777;
+    text-decoration: none;
+}
+
+.section-heading a:hover {
+    color: #242424;
+}
+
+
+.writing-preview {
+    padding: 42px 0;
+
+    border-bottom: 1px solid #d9d7d0;
+}
+
+.date {
+    margin: 0 0 12px;
+
+    color: #888;
+    font-size: 12px;
+}
+
+.writing-preview h2 {
+    margin: 0;
+
+    font-family: "Libre Baskerville", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.writing-preview h2 a {
+    color: #242424;
+    text-decoration: none;
+}
+
+.writing-preview h2 a:hover {
+    text-decoration: underline;
+}
+
+.writing-preview > p:last-child {
+    max-width: 600px;
+    margin-top: 14px;
+
+    color: #666;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 40px 60px;
+
+    color: #999;
+    font-size: 12px;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    .site-header {
+        padding: 24px 22px;
+    }
+
+    nav {
+        gap: 16px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    main {
+        padding: 70px 22px 100px;
+    }
+
+    .intro {
+        margin-bottom: 100px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    footer {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
